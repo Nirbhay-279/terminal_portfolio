@@ -1,4 +1,4 @@
-import { createGlobalStyle, DefaultTheme } from "styled-components";
+import type { createGlobalStyle, DefaultTheme } from "styled-components";
 import { normalize } from "styled-normalize";
 
 const GlobalStyle = createGlobalStyle<{ theme: DefaultTheme }>`
