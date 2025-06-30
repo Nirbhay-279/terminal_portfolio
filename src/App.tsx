@@ -13,7 +13,7 @@ export const themeContext = createContext<
 function App() {
   // themes
   const { theme, themeLoaded, setMode } = useTheme();
-  const [selectedTheme, setSelectedTheme] = useState<DefaultTheme>(darkTheme);
+  const [selectedTheme, setSelectedTheme] = useState<DefaultTheme>();
 
 
   // Disable browser's default behavior
