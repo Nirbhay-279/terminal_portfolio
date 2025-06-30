@@ -71,3 +71,4 @@ const GlobalStyle = createGlobalStyle<{ theme: DefaultTheme }>`
 `;
 
 export default GlobalStyle;
+
