@@ -5,6 +5,7 @@ import { useTheme } from "./hooks/useTheme";
 import GlobalStyle from "./components/styles/GlobalStyle.styled";
 import Terminal from "./components/Terminal";
 
+
 export const themeContext = createContext<
   ((switchTheme: DefaultTheme) => void) | null
 >(null);
@@ -12,7 +13,8 @@ export const themeContext = createContext<
 function App() {
   // themes
   const { theme, themeLoaded, setMode } = useTheme();
-  const [selectedTheme, setSelectedTheme] = useState(theme);
+  const [selectedTheme, setSelectedTheme] = useState<DefaultTheme>(darkTheme);
+
 
   // Disable browser's default behavior
   // to prevent the page go up when Up Arrow is pressed
