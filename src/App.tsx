@@ -31,7 +31,6 @@ function App() {
   useEffect(() => {
     setSelectedTheme(theme);
   }, [themeLoaded]);
-
   // Update meta tag colors when switching themes
   useEffect(() => {
     const themeColor = theme.colors?.body;
@@ -57,7 +56,7 @@ function App() {
       <h1 className="sr-only" aria-label="Terminal Portfolio">
         Terminal Portfolio
       </h1>
-      {themeLoaded && (
+      {themeLoaded && selectedTheme && (
         <ThemeProvider theme={selectedTheme}>
           <GlobalStyle />
           <themeContext.Provider value={themeSwitcher}>
