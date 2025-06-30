@@ -1,5 +1,5 @@
 
-import { getRandomQuote } from "../../utils/Quotes";
+import { getRandomQuote } from "../../utils/quotes";
 import { useEffect, useState } from "react";
 
 import {
