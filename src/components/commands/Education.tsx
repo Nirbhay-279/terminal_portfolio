@@ -22,11 +22,11 @@ const eduBg = [
   },
   {
     title: "Class XII (CBSE)",
-    desc: "RLB| 2021 | 95%",
+    desc: "Rani Laxmi Bai Memorial School| 2020| 95%",
   },
   {
     title: "Class X (CBSE)",
-    desc: "RLB| 2019 | 96%",
+    desc: "Rani Laxmi Bai Memorial School| 2018 | 96%",
   },
 ];
 
