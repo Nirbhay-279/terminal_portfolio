@@ -16,7 +16,8 @@ const Welcome: React.FC = () => {
   const [quote, setQuote] = useState("");
 
   useEffect(() => {
-    setQuote(getRandomQuote());
+    const random = getRandomQuote(); 
+    setQuote(random);
   }, []);
 
   return (
