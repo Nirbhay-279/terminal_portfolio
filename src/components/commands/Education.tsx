@@ -18,7 +18,7 @@ const Education: React.FC = () => {
 const eduBg = [
   {
     title: "B.Tech in Computer Science and Engineering (Information Security)",
-    desc: "VIT Vellore | 2021 ~ 2025 | CGPA: 9.12",
+    desc: "VIT Vellore | 2021 ~ 2025 | CGPA: 9.18",
   },
   {
     title: "Class XII (CBSE)",
